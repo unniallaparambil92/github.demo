@@ -1,0 +1,31 @@
+Git Quick Start Commands
+
+Command Listing, Part 1
+
+$ cd ../../GitProjects/ //this is our GitHub local location
+pwd // This will return the current directory
+mkdir projects // to make a new folder/ directory
+cd projects // to change the directory to project or to get enter into the directory.
+pwd
+
+Command Listing, Part 2
+
+
+git version // to get the version
+git config --global user.name "Abe Lincoln" // create new user
+git config --global user.email "mrabe@git.training"// create new user email
+git config --global --list //  list if user.name and user.email
+git clone github-https-url # paste in your GitHub HTTPS clone URL // To clone the repository from cloud to the local machine.
+ls // to get the details in the clone
+cd github.demo // to change the directory into github.demo
+ls // list of items inside github.demo
+git status // to show the status and then list the items that do not commited yet if any
+echo "Test Git Quick Start demo" >> start.txt // to make a new text file with name start.txt and the data is "Test Git Quick Start demo"
+ls
+cat start.txt // To get the content of the start file
+git status 
+git add start.txt // add start.txt to git staging.
+git status
+git commit -m "Adding start text file" // commit the file with a comment.
+git status
+git push origin main// final push to repository
