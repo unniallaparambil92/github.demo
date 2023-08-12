@@ -1,4 +1,4 @@
-Git Quick Start Commands
+Git Quick Start Commands 
 
 Command Listing, Part 1
 
@@ -29,3 +29,5 @@ git status
 git commit -m "Adding start text file" // commit the file with a comment.
 git status
 git push origin main// final push to repository
+
+Part 3
